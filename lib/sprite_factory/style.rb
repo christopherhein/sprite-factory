@@ -40,7 +40,7 @@ module SpriteFactory
     end
 
     def self.sass_comment(comment)
-      return "/* #{comment.rstrip} */" # SASS has peculiar indenting requirements in order to recognise closing block comment
+#      return "/* #{comment.rstrip} */" # SASS has peculiar indenting requirements in order to recognise closing block comment
     end
 
     #----------------------------------------------------------------------------
